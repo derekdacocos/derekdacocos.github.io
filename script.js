@@ -1,11 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Change header background color on click
+
     const header = document.querySelector('header');
     header.addEventListener('click', () => {
         header.classList.toggle('header-active');
     });
 
-    // Scroll to top button functionality
     const scrollToTopBtn = document.createElement('button');
     scrollToTopBtn.textContent = 'Scroll to Top';
     scrollToTopBtn.classList.add('scroll-to-top');
